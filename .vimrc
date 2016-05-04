@@ -82,8 +82,6 @@ call neobundle#begin(expand('~/.vim/bundle/'))
 " neobundle自体をneobundleで管理
 NeoBundleFetch 'Shougo/neobundle.vim'
 
-" 今後このあたりに追加のプラグインをどんどん書いて行きます！！"
-
 "-------------------------
 " End Neobundle Settings.
 "-------------------------
