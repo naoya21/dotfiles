@@ -18,7 +18,7 @@ set shortmess+=I
 set visualbell
 set scrolloff=2
 set fileformats=unix,dos,mac " 改行コードの自動認識
-"set showcmd
+set showcmd
 set number
 set nocompatible
 set clipboard+=unnamed
@@ -30,12 +30,11 @@ set noinsertmode
 set showmode
 set cmdheight=1
 set nowrap
-"set wrap
 set laststatus=2
-"set cmdheight=2
 set showcmd
 set title
 set statusline=%<%f\ %m%r%h%w%{'['.(&fenc!=''?&fenc:&enc).']['.&ff.']'}%=%l,%c%V%8P
+"
 "tab
 set tabstop=4
 set shiftwidth=4
